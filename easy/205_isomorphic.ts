@@ -12,6 +12,16 @@ function isIsomorphic(s: string, t: string): boolean {
             }
         }
     });
+    obj = {};
+    tArray.forEach((v,i)=>{
+        if(obj[v] ===  undefined){
+            obj[v] = sArray[i];
+        } else {
+            if(obj[v] !== sArray[i]){
+                isomorphic = false;
+            }
+        }
+    });
     return isomorphic;
 };
 
