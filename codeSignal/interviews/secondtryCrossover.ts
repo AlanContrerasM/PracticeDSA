@@ -1,6 +1,6 @@
 //compare pattern 0 and 1 strings for vowels and constants, count the numebr of times pattern is respected.
 
-function solution2(pattern: string, source: string): number {
+function solution1(pattern: string, source: string): number {
     //pattern is only 1 and 0, source is a string
     //patter matches is 
     
